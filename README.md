@@ -9,7 +9,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/ZhuYiming?style=social)](https://github.com/ZhuYiming)
+[![GitHub followers](https://img.shields.io/github/followers/ZhuYiming?style=social)](https://github.com/myzovo)
 
 </div>
 
