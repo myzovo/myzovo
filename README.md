@@ -9,7 +9,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 
 <br/>
 
-[![GitHub followers](https://img.shields.io/github/followers/ZhuYiming?style=social)](https://github.com/myzovo)
+[![GitHub followers](https://img.shields.io/github/followers/ZhuYiming?style=social)](https://github.com/ZhuYiming)
 
 </div>
 
@@ -22,6 +22,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 <td width="50%">
 
 ### 🔎 FuncFind (页问)
+
 > RAG-based web feature locator & navigator
 
 - Crawls websites → extracts interactive elements → builds vector knowledge base
@@ -34,6 +35,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 <td width="50%">
 
 ### 📄 DocVec_RAG
+
 > Lightweight RAG system for resource-constrained deployment
 
 - Upload docs → chunk → vectorize → retrieval-augmented Q&A
@@ -48,6 +50,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 <td width="50%">
 
 ### 🕷️ Website Link Discoverer
+
 > Crawlee + Playwright site explorer
 
 - Discovers all interactive entry points (links, buttons, forms)
@@ -60,6 +63,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 <td width="50%">
 
 ### ☁️ 云考勤助手
+
 > WeChat Mini Program for employee check-in
 
 - Real-time geofencing (Haversine distance check)
@@ -67,6 +71,24 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 - Graceful degradation: offline mock openid when login fails
 
 **Stack:** `WeChat Mini Program` · `Cloud Functions` · `Cloud Database`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📝 Noto AI
+
+> Smart notes app with OCR, semantic search & AI Q&A
+
+- Built on open-source [Noto](https://github.com/alialbaali/Noto) + Spring Boot backend
+- Photo → OCR → save → vectorize → RAG-powered Q&A
+- Supabase + pgvector for semantic retrieval
+
+**Stack:** `Kotlin` · `Spring Boot` · `Supabase` · `pgvector` · `DeepSeek` · `Zhipu AI`
+
+</td>
+<td width="50%">
 
 </td>
 </tr>
@@ -104,7 +126,7 @@ Currently exploring the intersection of **LLM, RAG, and Web Intelligence**.
 
 ## 💡 Philosophy
 
-> *"The best interface is no interface — but when you need one, make it intelligent."*
+> _"The best interface is no interface — but when you need one, make it intelligent."_
 
 I believe AI should make software **disappear into intent**. \
 You describe what you want, the system figures out where it lives. 🚀
